@@ -20,7 +20,7 @@ interface Project {
 
 const projects: Project[] = [
   {
-    id: 1,
+    id: 4,
     title: "E-Commerce Platform",
     description: "Responsive e-commerce frontend with modern UI/UX design",
     longDescription:
@@ -30,7 +30,7 @@ const projects: Project[] = [
     category: "Frontend",
     demoUrl: "uas-gold.vercel.app",
     githubUrl: "https://github.com/Wisam23-am/UAS",
-    featured: true,
+    featured: false,
 
   },
   {
@@ -60,7 +60,7 @@ const projects: Project[] = [
     featured: true,
   },
   {
-    id: 4,
+    id: 1,
     title: "Portfolio Website",
     description: "Personal portfolio with responsive design and smooth animations",
     longDescription:
@@ -70,7 +70,7 @@ const projects: Project[] = [
     category: "Frontend",
     demoUrl: "https://portofolio-project-two-eta.vercel.app",
     githubUrl: "https://github.com/Wisam23-am/portofolio_project",
-    featured: false,
+    featured: true,
 
   },
 ]
