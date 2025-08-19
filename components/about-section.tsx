@@ -70,23 +70,22 @@ export default function AboutSection() {
 
               <div className="space-y-4 font-body text-muted leading-relaxed">
                 <p>
-                  With over 5 years of experience in web development, I specialize in creating modern, responsive
-                  applications that deliver exceptional user experiences. My journey began with a curiosity for how
-                  things work, which evolved into a passion for building digital solutions that make a difference.
+                  I specialize in creating modern, responsive applications that deliver exceptional
+                  user experiences. My journey began with a curiosity for how things work, which
+                  evolved into a passion for building digital solutions that make a difference.
                 </p>
 
                 <p>
-                  I believe in the power of clean code, thoughtful design, and continuous learning. When I'm not coding,
-                  you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge
-                  with the developer community.
+                  I am confident in my determination, I am able to continue developing and always
+                  learning new things that will come.
                 </p>
               </div>
 
               {/* Stats */}
               <div className="grid grid-cols-3 gap-6 mt-8">
                 {[
-                  { number: "50+", label: "Projects Completed" },
-                  { number: "5+", label: "Years Experience" },
+                  { number: "10+", label: "Projects Completed" },
+                  { number: "1+", label: "Years Experience" },
                   { number: "100%", label: "Client Satisfaction" },
                 ].map((stat, index) => (
                   <Card

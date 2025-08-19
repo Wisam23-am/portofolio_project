@@ -33,16 +33,16 @@ export default function Footer() {
             <div>
               <h4 className="font-heading font-bold text-lg mb-4">Get in Touch</h4>
               <div className="space-y-2 font-body text-primary-foreground/80">
-                <p>alex@example.com</p>
-                <p>+1 (555) 123-4567</p>
-                <p>San Francisco, CA</p>
+                <p>aqilamadani23@gmail.com</p>
+                <p>+6285175426496</p>
+                <p>Paciran, Lamongan</p>
               </div>
             </div>
           </div>
 
           {/* Bottom Bar */}
           <div className="border-t border-primary-foreground/20 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="font-body text-primary-foreground/60 text-sm">© 2024 Alex Portfolio. All rights reserved.</p>
+            <p className="font-body text-primary-foreground/60 text-sm">© 2025 Wisam Portfolio. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a
                 href="#"

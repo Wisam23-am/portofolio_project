@@ -10,18 +10,17 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-  { name: "React", level: 95, category: "Frontend" },
-  { name: "Next.js", level: 90, category: "Frontend" },
+  { name: "React", level: 85, category: "Frontend" },
+  { name: "Next.js", level: 83, category: "Frontend" },
   { name: "TypeScript", level: 88, category: "Frontend" },
-  { name: "Tailwind CSS", level: 92, category: "Frontend" },
+  { name: "Tailwind CSS", level: 78, category: "Frontend" },
   { name: "Node.js", level: 85, category: "Backend" },
   { name: "Python", level: 80, category: "Backend" },
-  { name: "PostgreSQL", level: 82, category: "Backend" },
-  { name: "MongoDB", level: 78, category: "Backend" },
-  { name: "AWS", level: 75, category: "DevOps" },
-  { name: "Docker", level: 70, category: "DevOps" },
+  { name: "PostgreSQL", level: 90, category: "Backend" },
+  { name: "C", level: 90, category: "Menengah" },
   { name: "Git", level: 90, category: "Tools" },
-  { name: "Figma", level: 85, category: "Tools" },
+  { name: "Figma", level: 75, category: "Tools" },
+  { name: "VS Code", level: 85, category: "Tools" },
 ]
 
 export default function SkillsSection() {
@@ -56,7 +55,7 @@ export default function SkillsSection() {
     return () => observer.disconnect()
   }, [])
 
-  const categories = ["Frontend", "Backend", "DevOps", "Tools"]
+  const categories = ["Frontend", "Backend", "Menengah", "Tools"]
 
   return (
     <section id="skills" className="min-h-screen bg-background py-20">
